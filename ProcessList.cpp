@@ -5,6 +5,7 @@ Computer Science II
 September 11, 2017
 */
 
+#include "stdafx.h"
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -39,9 +40,6 @@ void getFile()
 		getline(cin, fileName);
 		numberFile.open(fileName);
 	}
-	countNumbers();
-	printStats();
-	numberFile.close();
 }
 
 // Function that counts the amount of numbers within the file given and grabs the first two and last two numbers.
@@ -84,9 +82,9 @@ void printStats()
 int main()
 {
 	getFile();
-	//countNumbers();
-	//printStats();
-	//// Close the file before the program ends to ensure that the file closes.
-	//numberFile.close();
+	countNumbers();
+	printStats();
+	// Close the file before the program ends to ensure that the file closes.
+	numberFile.close();
 	return 0;
 }
