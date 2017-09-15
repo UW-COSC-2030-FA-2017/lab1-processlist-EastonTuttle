@@ -4,4 +4,4 @@ Computer Science II
 Lab Section 10
 September 11, 2017
 
-Collaboration with Rafer, and Oyedola Ajao.
+Collaboration with Rafer, Samuel Blair, and Oyedola Ajao.
